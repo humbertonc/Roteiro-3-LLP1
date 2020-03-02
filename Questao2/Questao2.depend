@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1582692665 source:c:\users\beto_\onedrive\documents\lpp1\questao2\main.cpp
+	<iostream>
+	"Conta.h"
+	"ContaEspecial.h"
+	<string>
+
+1582683737 source:c:\users\beto_\onedrive\documents\lpp1\questao2\src\iconta.cpp
+	"IConta.h"
+
+1582687806 c:\users\beto_\onedrive\documents\lpp1\questao2\include\iconta.h
+
+1582692538 source:c:\users\beto_\onedrive\documents\lpp1\questao2\src\conta.cpp
+	"Conta.h"
+
+1582688185 c:\users\beto_\onedrive\documents\lpp1\questao2\include\conta.h
+	"IConta.h"
+	<string>
+
+1582698471 source:c:\users\beto_\onedrive\documents\lpp1\questao2\src\contaespecial.cpp
+	"ContaEspecial.h"
+
+1582698273 c:\users\beto_\onedrive\documents\lpp1\questao2\include\contaespecial.h
+	"Conta.h"
+
