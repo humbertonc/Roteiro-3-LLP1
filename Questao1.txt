@@ -1,0 +1,17 @@
+Polimorfismo é uma técnica útil utilizada na POO que permite que objetos de classes filhas possam ser criados tendo como referência
+a classe pai.
+
+Por exemplo: Digamos que a classe pai seja Funcionario e as filhas sejam Assalariado e Comissionado.
+É possível instanciar os objetos da seguinte forma:
+  
+  Funcionario *func[2];
+
+  func[0] = new Assalariado();
+  func[1] = new Comissionado();
+  
+Assim, é possível utilizar o mesmo comando para que objetos das diferentes classe realizem os seus respectivos métodos. 
+Ex:
+
+  for(i=0;i<2;i++){
+  func[i]->calculeSalario();
+  }
