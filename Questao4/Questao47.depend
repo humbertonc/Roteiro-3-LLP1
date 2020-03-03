@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1583188012 source:c:\users\beto_\onedrive\documents\lpp1\questao47\main.cpp
+	<iostream>
+	<string>
+	"SistemaGerenciaFolha.h"
+	"Funcionario.h"
+	"Assalariado.h"
+	"Horista.h"
+	"Comissionado.h"
+
+1583179767 source:c:\users\beto_\onedrive\documents\lpp1\questao47\src\funcionario.cpp
+	"Funcionario.h"
+
+1583187318 c:\users\beto_\onedrive\documents\lpp1\questao47\include\funcionario.h
+	<string>
+
+1583187319 source:c:\users\beto_\onedrive\documents\lpp1\questao47\src\assalariado.cpp
+	"Assalariado.h"
+
+1583187319 c:\users\beto_\onedrive\documents\lpp1\questao47\include\assalariado.h
+	"Funcionario.h"
+	<string>
+
+1583187701 source:c:\users\beto_\onedrive\documents\lpp1\questao47\src\horista.cpp
+	"Horista.h"
+
+1583187319 c:\users\beto_\onedrive\documents\lpp1\questao47\include\horista.h
+	"Funcionario.h"
+	<string>
+
+1583187319 source:c:\users\beto_\onedrive\documents\lpp1\questao47\src\comissionado.cpp
+	"Comissionado.h"
+
+1583187318 c:\users\beto_\onedrive\documents\lpp1\questao47\include\comissionado.h
+	"Funcionario.h"
+	<string>
+
+1583186684 source:c:\users\beto_\onedrive\documents\lpp1\questao47\src\sistemagerenciafolha.cpp
+	"SistemaGerenciaFolha.h"
+
+1583183960 c:\users\beto_\onedrive\documents\lpp1\questao47\include\sistemagerenciafolha.h
+	"Funcionario.h"
+	"FuncionarioNaoExisteException.h"
+	"OrcamentoEstouradoException.h"
+	<string>
+
+1583183932 source:c:\users\beto_\onedrive\documents\lpp1\questao47\src\funcionarionaoexisteexception.cpp
+	"FuncionarioNaoExisteException.h"
+
+1583183932 c:\users\beto_\onedrive\documents\lpp1\questao47\include\funcionarionaoexisteexception.h
+	<string>
+	<iostream>
+	<exception>
+
+1583187457 source:c:\users\beto_\onedrive\documents\lpp1\questao47\src\orcamentoestouradoexception.cpp
+	"OrcamentoEstouradoException.h"
+
+1583184021 c:\users\beto_\onedrive\documents\lpp1\questao47\include\orcamentoestouradoexception.h
+	<string>
+	<iostream>
+	<exception>
+
