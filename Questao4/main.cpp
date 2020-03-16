@@ -20,12 +20,20 @@ int main()
     sist.setFuncionario(&com);
     sist.setFuncionario(&hor);
 
+    try{
     cout << "O salario do/a funcionario/a assalariado " << as.getNome() << " vale " << sist.consultaSalarioFuncionario("Joao Pereira") << endl;
     cout << "O salario do/a funcionario/a comissionado " << com.getNome() << " vale " << sist.consultaSalarioFuncionario("Maria Pessoa") << endl;
     cout << "O salario do/a funcionario/a horista " << hor.getNome() << " vale " << sist.consultaSalarioFuncionario("Lucas Andrade") << endl;
+    }catch(FuncionarioNaoExisteException funcEx){
+        funcEx = FuncionarioNaoExisteException();
+    }
 
+    try{
     cout << "O gasto com a folha salarial da empresa vale " << sist.consultaValorTotalFolha() << " reais." << endl;
-
+    }catch(OrcamentoEstouradoException orcEx){
+        orcEx = OrcamentoEstouradoException();
+    }
 
     return 0;
 }
+
